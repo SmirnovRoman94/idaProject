@@ -1,0 +1,52 @@
+.btn {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0 11px 0;
+  margin-top: 24px;
+  color: #B4B4B4;
+  line-height: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  // default btn
+  &.btnDefaul {
+    color: #B4B4B4;
+    border: 1px solid #EEEEEE;
+    background-color: #EEEEEE;
+  }
+  // green btn
+  &.btnGreen {
+    color: #ffffff;
+    border: 1px solid #7BAE73;
+    background-color: #7BAE73;
+  }
+  // primiry btn
+  &.btnPrimary {
+    color: #ffffff;
+    border: 1px solid #494ce8;
+    background-color: #494ce8;
+  }
+
+  // danger btn
+  &.btnDanger {
+    color: #ffffff;
+    border: 1px solid hsl(0, 48%, 48%);
+    background-color: #b53f3f;
+  }
+
+  &.btnWhite {
+    margin-top: 0;
+    padding: 10px 15px 11px 16px;
+    color: #B4B4B4;
+    border: 1px solid #FFFEFB;
+    background-color: #FFFEFB;
+  }
+  &.btnWhite.hide {
+    margin-top: 0;
+    padding: 10px 15px 11px 16px;
+    color: #ffffff;
+    border: 1px solid #7BAE73;
+    background-color: #7BAE73;
+  }
+}

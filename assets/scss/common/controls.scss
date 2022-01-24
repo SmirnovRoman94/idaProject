@@ -1,0 +1,40 @@
+label {
+  display: block;
+  font-size: 10px;
+  line-height: 13px;
+  margin-bottom: 4px;
+  text-align: left;
+  position: relative;
+}
+input {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px 0 11px 16px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #fff;
+}
+::placeholder{
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  color: #B4B4B4;
+}
+
+textarea {
+  background-color: #fff;
+  padding: 10px 0 83px 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  &::placeholder{
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    color: #B4B4B4;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+input, textarea {
+  width: 100%;
+}
